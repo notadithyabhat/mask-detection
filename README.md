@@ -10,4 +10,7 @@ A custom dataset was collected from friends and family through Google forms for 
 The model was developed using pretrained mobilenet model with only additonal layer with dropout to achieve a validation accuracy of 95.7% validation accuracy. The final model was trained with 99.99% of the dataset and achieved an accuracy of 99%.
 
 
+pip install requirements.txt before running
+
+
 
