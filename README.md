@@ -11,12 +11,13 @@ The model was developed using pretrained mobilenetV2 and facenet models with add
 
 
 Instruction to run:
+
 1. python -m pip install -r requirements.txt
 
-Training:
+
 2. CMD:python train_mask_detector.py -d Dataset
 
-Running:
+
 3. CMD:python mask-detecctor.py
 
 
