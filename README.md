@@ -7,7 +7,7 @@ The cases of coronavirus around ther world are constantly on a rise and the need
 
 A custom dataset was collected from friends and family through Google forms for all the 3 cases as there was not enough dataset on masks worn incorrectly online. I'd like to thank each and everyone who contributed to the dataset. Further, some images from datasets from Kaggle were also included in my dataset. There are a total of 826 images in the dataset and augmented images were generated to further enlarge the dataset.
 
-The model was developed using pretrained mobilenet model with only additonal layer with dropout to achieve a validation accuracy of 95.7% validation accuracy. The final model was trained with 99.99% of the dataset and achieved an accuracy of 99%.
+The model was developed using pretrained mobilenetV2 and facenet models with additonal layer with dropout to achieve a validation accuracy of 95.7% validation accuracy. The final model was trained with 99.99% of the dataset and achieved an accuracy of 99%.
 
 
 pip install requirements.txt before running
